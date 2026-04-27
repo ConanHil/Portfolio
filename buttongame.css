@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #dadada;
+    background-color: #122045;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.button-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    position: absolute;
+    padding: 20px 40px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #07042e;
+    color: #dadada;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease, background-color 0.3s ease;
+}
+
+#yes-button {
+    top: 200px;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#no-button {
+    top: 200px;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
